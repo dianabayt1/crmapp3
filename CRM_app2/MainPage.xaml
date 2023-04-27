@@ -1,0 +1,26 @@
+﻿<Page x:Class="CRM_app2.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CRM_app2"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="MainPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="Clients_button" Content="Таблицы Клиенты"  Grid.Row="0" Click="Clients_button_Click"></Button>
+        <Button x:Name="Sales_Button" Content="Таблицы Продажи"  Grid.Row="1" Click="Sales_Button_Click"></Button>
+        <Button x:Name="Managers_Button" Content="Таблицы Сотрудники"  Grid.Row="2" Click="Manager_Button_Click"></Button>
+        <Button x:Name="Products_Button" Content="Таблицы Товары и услуги"  Grid.Row="3" Click="Products_Button_Click"></Button>
+        <Button x:Name="Typs_Button" Content="Таблицы Продажи"  Grid.Row="4" Click="Sales_Button_Click"></Button>
+        
+    </Grid>
+</Page>
